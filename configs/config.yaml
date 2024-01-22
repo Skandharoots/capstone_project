@@ -1,0 +1,9 @@
+data:
+  deskew: True
+  preprocess: True
+  max_range: 40000.0
+  min_range: 0.0
+
+mapping:
+  voxel_size: 2.0
+  max_points_per_voxel: 10000

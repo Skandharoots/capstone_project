@@ -1,0 +1,1 @@
+copy /Y "E:\capstonecode\src\python\Release\kiss_icp_pybind.cp310-win_amd64.pyd" "C:\Users\tycja\AppData\Local\Programs\Python\Python310\Lib\site-packages\kiss_icp\pybind" && echo File was successfully copied

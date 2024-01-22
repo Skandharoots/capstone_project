@@ -1,0 +1,5 @@
+add_library(metrics STATIC)
+add_library(kiss_icp::metrics ALIAS metrics)
+target_sources(metrics PRIVATE Metrics.cpp)
+target_link_libraries(metrics PUBLIC Eigen3::Eigen)
+set_global_target_properties(metrics)
